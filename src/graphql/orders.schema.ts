@@ -3,7 +3,7 @@ import OrderService from '../services/business/order.service';
 import { OrderType } from './order.schema';
 
 
-export const objectsSchema: GraphQLFieldConfig<any, any> = {
+export const ordersSchema: GraphQLFieldConfig<any, any> = {
   type: new GraphQLList(OrderType),
   args: {
     page: {

@@ -24,7 +24,7 @@ export const OrderType = new GraphQLObjectType({
 });
 
 
-export const objectSchema: GraphQLFieldConfig<any, any> = {
+export const orderSchema: GraphQLFieldConfig<any, any> = {
   type: OrderType,
   args: {
     id: {
